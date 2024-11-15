@@ -37,8 +37,8 @@ stat:
       value: 900
     - name: ExtraBlack
       value: 1000
-  - name: Length
-    tag: LENG
+  - name: Vertical Extension
+    tag: YEXT
     values:
     - name: Normal
       value: 1
