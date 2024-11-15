@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Emery";
+  src: url('../fonts/variable/EmeryCubic[SHRP\,YEXT\,wght].ttf') format('truetype');
+}
+
+@layer demo {
+  h1 {
+    font-family: "Emery";
+    font-variation-settings: 'YEXT' var(--extenders, 1), 'wght' var(--weight, 400), 'SHRP' var(--sharpness, 1);
+    font-size: var(--fontsize, 60pt);
+    position: relative;
+  }
+}
+
+@layer demo.support {
+  * {
+    box-sizing: border-box;
+    margin: 1;
+  }
+
+  html {
+    block-size: 100%;
+    color-scheme: dark light;
+  }
+
+  body {
+    min-block-size: 100%;
+
+    display: grid;
+    place-content: center;
+    /*     gap: 1rem; */
+  }
+}
