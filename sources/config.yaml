@@ -13,8 +13,6 @@ stat:
   - name: Weight
     tag: wght
     values:
-    - name: Hairline
-      value: 50
     - name: Thin
       value: 100
     - name: ExtraLight
@@ -35,19 +33,13 @@ stat:
       value: 800
     - name: Black
       value: 900
-    - name: ExtraBlack
-      value: 1000
   - name: Vertical Extension
     tag: YEXT
     values:
-    - name: Normal
-      value: 1
-    - name: Long
-      value: 1000
+    - name: Default
+      value: 0
   - name: Sharpness
     tag: SHRP
     values:
-    - name: Normal
-      value: 1
-    - name: Sharp
-      value: 1000
+    - name: Default
+      value: 0
