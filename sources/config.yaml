@@ -38,8 +38,10 @@ stat:
     values:
     - name: Default
       value: 0
+      flags: 2
   - name: Sharpness
     tag: SHRP
     values:
     - name: Default
       value: 0
+      flags: 2
